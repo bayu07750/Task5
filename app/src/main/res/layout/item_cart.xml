@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="cart"
+            type="com.example.tugas5.data.db.Cart" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="@dimen/_8sdp">
+
+        <ImageView
+            app:imageSingle="@{cart.image}"
+            android:id="@+id/imagePoster"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:contentDescription="@string/image"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_130sdp"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/_16sdp"
+            app:layout_constraintStart_toEndOf="@id/imagePoster"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imagePoster"
+            app:layout_constraintBottom_toBottomOf="@id/imagePoster">
+
+            <TextView
+                android:text="@{cart.title}"
+                android:id="@+id/textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextNormal"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold"
+                tools:text="Sony Playstation 4 Slim - Original" />
+
+            <TextView
+                app:textPrice="@{cart.price}"
+                android:id="@+id/textPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textColor="@color/colorTextNormal"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12ssp"
+                tools:text="Rp 1.000.000" />
+
+            <TextView
+                android:text="@{@string/pts(Integer.toString(cart.pts))}"
+                android:id="@+id/textPts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColor="@color/colorTextNormal"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12ssp"
+                tools:text="1 pts" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

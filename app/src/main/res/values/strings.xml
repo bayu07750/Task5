@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Tugas 5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo_kodepedia">logo kodePedia</string>
+    <string name="textEmail">Email</string>
+    <string name="textPassword">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="textLogin">Login</string>
+    <string name="not_register_yet">Not register yet ?</string>
+    <string name="textRegister">Register</string>
+    <string name="have_already_account">Have already account ?</string>
+    <string name="full_name">Full Name</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="forgot_password2">Forgot Password</string>
+    <string name="textDescForgetPassword">Lorem ipsum dolor sit amet\n consectetur adipisicing elit. Ipsum, laudantium! bui dad</string>
+    <string name="send_password">Send Password</string>
+    <string name="storepedia">StorePedia</string>
+    <string name="content_desc_back">back</string>
+    <string name="account">Account</string>
+    <string name="content_desc_profile">image profile</string>
+    <string name="content_desc_email">image email</string>
+    <string name="content_desc_password">image password</string>
+    <string name="history">History</string>
+    <string name="product">Product</string>
+    <string name="details_product">Details Product</string>
+    <string name="my_cart">My Cart</string>
+    <string name="messageEmpty">Field can\'t not be blank</string>
+    <string name="messageEmailValid">Please enter a valid email address</string>
+    <string name="messagePasswordMoreThan">Password must be more than 8</string>
+    <string name="messagePasswordIsNotSame">Password is not the same</string>
+    <string name="invoiceNumber">Invoice Number: %s</string>
+    <string name="idr">IDR %s,-</string>
+    <string name="waitingPayment">WAITING PAYEMENT</string>
+    <string name="success">SUCCESS</string>
+    <string name="failed">FAILED</string>
+    <string name="error">error</string>
+    <string name="image">image</string>
+    <string name="backdrop">backdrop</string>
+    <string name="buy">Buy</string>
+    <string name="rilis">Rilis : %s</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at atque culpa debitis distinctio doloremque doloribus enim harum hic, impedit itaque magnam maiores odit, quisquam, temporibus tenetur voluptatibus. Atque, commodi.</string>
+    <string name="checkout">Checkout</string>
+    <string name="kosong">Kosong</string>
+    <string name="totalPrice">Total %s</string>
+    <string name="pts">%s pts</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="input_your_shipping_address">Input your shipping address</string>
+    <string name="pembayaran">Pembayaran :</string>
+    <string name="submit">Submit</string>
+
+    <string name="name">Nama : %s</string>
+    <string name="nomor">Nomor Rekening : %s</string>
+    <string name="cabang">Cabang : %s</string>
+    <string name="done">Done</string>
+    <string name="invoice_number_12909_19081_9831">Invoice Number : 2341231233</string>
+</resources>
